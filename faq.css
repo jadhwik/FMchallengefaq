@@ -1,0 +1,48 @@
+.container{
+    width:500px;
+    height:400px;
+    margin:auto;
+    border-style: ridge;
+    border-color:rgba(248, 243, 243, 0.148);
+    border-radius: 10px;
+    padding:30px;
+    position:absolute;
+    bottom:100px;
+    left:450px;
+    background-color: aliceblue;
+    box-shadow: 2px 2px rgb(238, 232, 232);
+    
+    
+}
+.container h2{
+    font-weight: bolder;
+    font-size: xx-large;
+    font-family: new;
+
+}
+p{
+    font-weight: bolder;
+    font-family: new2;
+}
+p1{
+    color:rgb(129, 124, 124)
+}
+.container .tale{
+    font-weight: bolder;
+}
+td{
+    padding:10px;
+}
+
+
+p2:hover{
+    color: rgb(144, 14, 188);
+}
+@font-face{
+    font-family:'new';
+    src:url(WorkSans-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: 'new2';
+    src: url(WorkSans-Italic-VariableFont_wght.ttf);
+}
